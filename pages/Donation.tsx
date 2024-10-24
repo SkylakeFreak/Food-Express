@@ -15,6 +15,7 @@ import Request from "../pages/Request"
 import {Aclonica, Averia_Sans_Libre, Jockey_One, Luckiest_Guy, Pacifico, Prompt, Rock_Salt, Rubik_Broken_Fax, Rubik_Maps, Ubuntu, Unica_One} from "@next/font/google"; 
 import { Denk_One } from 'next/font/google';
 import { text } from 'stream/consumers';
+import vid from "../rec/vidvid.mp4"
 
 const roboto=Ubuntu({
   subsets:["latin"],
@@ -42,7 +43,7 @@ function Donation() {
 
   return (
     <><div className='h-2xl h-screen bg-newgrey flex flex-col relative '>
-      <Image className="absolute opacity-60 h-screen" src={im19} alt="sr"></Image>
+      <Image className="absolute opacity-30 h-screen" src={im19} alt="sr"></Image>
 
 
 
@@ -70,9 +71,20 @@ function Donation() {
       <div className='flex justify-center mt-40 md:mt-40'>
         <h1 style={anta.style} className='text-white font-bold md:text-3xl lg:text-2xl xl:text-4xl text-lg ml-10 relative'>A Plate for a Purpose: Join Us in Donating Food to Those in Need</h1>
       </div>
-      <div className="hidden md:flex items-center justify-center mb-20"><Image className="relative object-cover object-center ml-40 mr-40 p-20 hidden lg:flex opacity-85" alt="image" src={img5}></Image>
-      <Image className=" shadown-md object-cover object-center mt-10 ml-10 mr-10 md:ml-40 md:mr-40 md:p-20 md:hidden" alt="iamge1" src={img11}></Image></div>
-      <div className="mb-20 lg:hidden"></div>
+      <div className="hidden md:flex items-center justify-center mb-20">       <video 
+  autoPlay 
+  loop 
+  muted 
+  playsInline 
+  className="relative object-cover object-center mx-40 p-20 hidden lg:flex opacity-85" 
+  src={vid}>
+</video>
+
+      <Image className=" shadown-md h-[60vh] object-cover object-center mt-10 ml-10 mr-10 md:ml-40 md:mr-40 md:p-20 lg:hidden " alt="iamge1" src={img11}></Image>
+      </div>
+      <div className="lg:hidden flex items-center justify-center">
+      <Image className="shadown-md h-[60vh] object-cover object-center mt-10 ml-10 mr-10 md:ml-40 md:mr-40 md:p-20 lg:hidden " alt="iamge1" src={img11}></Image>
+      </div>
 
 
 

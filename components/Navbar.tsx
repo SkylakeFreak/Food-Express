@@ -68,7 +68,6 @@ function Navbar() {
       <Link href="#recipe"><h1>Recipe</h1></Link>
       <Link href="#contact"><h1>Contact us</h1></Link>
       <Link href="/Donation"><h1>DONATE</h1></Link>
-      <p onClick={handleclick} ><h1 className='font-bold text-3xl hover:text-red-500 cursor-pointer animate-pulse'>LOGOUT</h1></p>
         
 
 
@@ -94,7 +93,7 @@ function Navbar() {
     <Link href="#recipe"><ol className='hover:bg-pwhite hover:text-black py-1'>Receipe</ol></Link>
     <Link href="#contact"><ol className='hover:bg-pwhite hover:text-black py-1 w-30 px-1'>Contact us</ol></Link>
     <Link href="/Donation"><ol className='hover:bg-pwhite hover:text-black py-1 w-30 px-1'>Donate</ol></Link>
-    <p onClick={handleclick} ><h1 className='font-bold hover:text-red-500 cursor-pointer animate-pulse hover:bg-pwhite  py-1 w-30 px-1'>LOGOUT</h1></p>
+
     
   </li>
   </ul>
