@@ -68,7 +68,7 @@ function Donation() {
 
       </div>
       
-      <div className='flex justify-center mt-40 md:mt-20'>
+      <div className='flex justify-center mt-40 md:mt-30'>
         <h1 style={anta.style} className='text-white font-bold md:text-3xl lg:text-2xl xl:text-4xl text-lg ml-10 relative'>A Plate for a Purpose: Join Us in Donating Food to Those in Need</h1>
       </div>
       <div className="hidden md:flex items-center justify-center mb-20">       <video 
