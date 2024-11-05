@@ -25,7 +25,7 @@ function Request() {
     return (
         <div className='h-screen bg-white flex flex-col justify-center'>
             <div className='flex justify-center'>
-                <h1 className='text-black text-xl lg:text-3xl xl:text-4xl mt-20'>CONNECT WITH US!</h1>
+                <h1 className='text-black text-xl lg:text-3xl xl:text-4xl mt-20'>CONNECT WITH US</h1>
             </div>
             <div className='p-10 flex justify-center'>
                 <div className='w-1/2 bg-pwhite shadow-2xl flex flex-col justify-center'>
