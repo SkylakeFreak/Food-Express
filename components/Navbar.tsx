@@ -66,7 +66,7 @@ function Navbar() {
       <Link href="#navbar"><h1>Home</h1></Link>
       <Link href="#about"><h1>About us</h1></Link>
       <Link href="#recipe"><h1>Recipe</h1></Link>
-      <Link href="#contact"><h1>Contact us</h1></Link>
+      <Link href="#contact"><h1>Contact us!</h1></Link>
       <Link href="/Donation"><h1>DONATE</h1></Link>
         
 
