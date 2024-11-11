@@ -42,7 +42,7 @@ function Contact() {
 
           </div>
          
-          <p className='text-lg'>info@example.com</p>
+          <p className='text-lg'>Test@gmail.com</p>
         </div>
         <div className="mb-4">
           <div className='flex'>
