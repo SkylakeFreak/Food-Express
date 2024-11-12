@@ -26,7 +26,7 @@ function Contact() {
       
       <div className=" bg-gray-100 flex items-center mt-20 ">
       <div className="bg-spblack text-white p-8 rounded shadow-md mt-10 md:mt-0 ml-10 mr-10 xl:ml-80 xl:mr-80 w-full mb-20">
-        <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
+        <h2 className="text-2xl font-semibold mb-4">Contact Us!</h2>
         <p className=" mb-4">
           Visit Again. If you have any questions or feedback,
           please use the information below to get in touch.
