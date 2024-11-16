@@ -84,7 +84,7 @@ function AboutUs() {
           At Food Express, we're dedicated to giving back. Enjoy our
           complimentary service, where we help donate surplus food from large
           events to those in need. Join us in making a positive impact, ensuring
-          no good food goes to waste.
+          no good food goes to waste!
         </p>
       </div>
       <div className="h-20"></div>
