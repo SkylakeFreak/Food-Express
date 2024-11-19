@@ -78,7 +78,7 @@ function AboutUs() {
         <p className="text-base md:text-lg lg:text-xl xl:text-2xl mb-8">
           Thank you for being a cherished part of the Food Express family.
           Together, let's create and savor countless unforgettable moments in
-          the kitchen!
+          the kitchen
         </p>
         <p className="font-bold ">
           At Food Express, we're dedicated to giving back. Enjoy our
